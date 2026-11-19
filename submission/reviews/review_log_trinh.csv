@@ -1,0 +1,8 @@
+image,type,verdict,note
+000000013177,class_swap,confirmed,"chiếc xe đạp màu cam dựng phía sau người thợ sửa xe bị YOLO gán nhầm thành motorcycle trong khi panoptic ghi bicycle đúng"
+000000013923,instance_merge,rejected,"hai chiếc ghế đỏ quanh bàn tròn trắng đặt chồng góc nhìn ở tiền cảnh, lệch tự nhiên giữa hai chuẩn nhãn"
+000000014038,instance_merge,rejected,"các chồng sách xếp sát thành từng cụm dày đặc trên kệ đứng bên phải phòng, gom vùng tự nhiên của COCO"
+000000015079,missing_box,rejected,"YOLO đã gán đủ hai box cho hai chiếc bánh sandwich trên đĩa nên không phải lỗi thiếu box"
+000000015079,instance_merge,confirmed,"hai chiếc bánh sandwich tách biệt rõ ràng trên đĩa có hai box YOLO riêng nhưng panoptic gộp chung thành một segment"
+000000016228,instance_merge,rejected,"người ngồi trên ghế bên phải bị đầu ngựa trắng che khuất một phần và đám đông đứng sát nhau bên trái, lệch tự nhiên"
+000000017182,instance_merge,rejected,"dãy sáu cuốn sách bìa xanh xếp khít thành hàng trên mặt bàn gỗ trước bảng đen, gom vùng tự nhiên của COCO"
