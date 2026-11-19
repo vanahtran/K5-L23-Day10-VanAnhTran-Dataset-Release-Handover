@@ -1,0 +1,9 @@
+image,type,verdict,note
+000000003845,class_swap,rejected,"bông cải xanh có class_id 80 là lỗi luật invalid_class, không phải lỗi tráo lớp"
+000000004134,instance_merge,rejected,"hai người đứng nói chuyện cạnh nhau bị che khuất một phần, phân vùng tự nhiên của COCO"
+000000004765,class_swap,rejected,"ván lướt sóng có class_id 80 là lỗi luật invalid_class, không phải lỗi tráo lớp"
+000000005001,instance_merge,rejected,"hai người đứng sát cạnh nhau bị che khuất một phần, phân vùng tự nhiên của COCO"
+000000006471,category_swap,confirmed,"mở ảnh: ghế băng dài ngoài trời, detection ghi bench đúng, panoptic ghi couch sai"
+000000006723,class_swap,rejected,"xe tải và xe buýt chạy liền nhau trên đường cao tốc, không có lỗi tráo lớp nhân tạo"
+000000006763,instance_merge,rejected,"người đứng trước bóng phản chiếu, phân vùng bao trùm tự nhiên của tập dữ liệu"
+000000006771,instance_merge,rejected,"đám đông người đi bộ trên đường phố chen chúc nhau, mask gộp do mật độ cao"
