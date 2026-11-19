@@ -1,0 +1,9 @@
+image,type,verdict,note
+000000000776,instance_merge,rejected,"nhiều chú gấu bông đặt sát nhau trên giường, việc panoptic gom cụm là đặc thù phân vùng tự nhiên của COCO"
+000000000785,missing_box,confirmed,"người trượt tuyết trên sườn núi có ván trượt skis rất rõ ràng nhưng nhãn detection YOLO bị bỏ sót box skis"
+000000000872,missing_box,rejected,"người đứng ở phía xa hậu cảnh có kích thước quá nhỏ và bị che khuất, YOLO bỏ qua là độ lệch tự nhiên"
+000000001000,instance_merge,rejected,"hai người đứng cạnh nhau trên bãi cỏ, phân vùng panoptic mask gom cụm là hiện tượng che khuất tự nhiên"
+000000001818,missing_box,rejected,"chú ngựa vằn đứng ở góc xa lệch ngoài tầm nhìn, nhãn detection không gán khung là sự không đồng nhất tự nhiên"
+000000002153,instance_merge,rejected,"hai người đứng tựa vào nhau ở tiền cảnh bức ảnh, mask phân vùng bị gộp do tiếp xúc cơ thể tự nhiên"
+000000002157,instance_merge,rejected,"các ly rượu vang đặt san sát nhau trên bàn tiệc trong nhà hàng, panoptic phân đoạn gộp do mật độ dày"
+000000002685,bbox_drift,confirmed,"khung viền bounding box của người person bị kéo lệch tâm đáng kể về phía dưới và sai tỷ lệ so với cơ thể"
