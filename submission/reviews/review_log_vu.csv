@@ -1,0 +1,8 @@
+image,type,verdict,note
+000000008277,instance_merge,rejected,"ảnh có đĩa xốp trắng đựng gà xé và một hộp đen đựng súp, detection gán nhãn hai vật thể tách biệt là chuẩn xác"
+000000009400,instance_merge,rejected,"cốc nước đá để trên bàn trong quán cà phê, hai khung viền xếp chồng lên nhau là nhiễu tự nhiên của COCO"
+000000009590,class_swap,rejected,"chén uống trà kiểu Nhật không có quai cầm trên bàn ăn, việc gán nhãn cup hay bowl là bất đồng tự nhiên của bộ dữ liệu"
+000000009914,class_swap,rejected,"nửa chiếc bánh kẹp thịt kẹp vừng nằm bên phải đĩa khoai tây, gán nhãn sandwich hay hot dog là tranh chấp nhãn tự nhiên"
+000000011511,bbox_drift,rejected,"hai bức tượng bằng đồng ngồi trên ghế đá công viên, khung viền bounding box ôm vừa vặn vật thể không bị lệch"
+000000011511,missing_box,rejected,"ảnh hai pho tượng kim loại ngồi trên ghế băng, nhãn detection đã nhận diện đủ các đối tượng chính không bị thiếu box"
+000000012748,missing_box,rejected,"người đàn ông áo đỏ đang bế một em bé đứng cạnh đầu ngựa, detection khoanh chung một khung person hợp lý"
