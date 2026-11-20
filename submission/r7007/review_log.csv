@@ -1,0 +1,39 @@
+image,type,verdict,note
+000000003845,class_swap,rejected,"bông cải xanh có class_id 80 là lỗi luật invalid_class, không phải lỗi tráo lớp"
+000000004134,instance_merge,rejected,"hai người đứng nói chuyện cạnh nhau bị che khuất một phần, phân vùng tự nhiên của COCO"
+000000004765,class_swap,rejected,"ván lướt sóng có class_id 80 là lỗi luật invalid_class, không phải lỗi tráo lớp"
+000000005001,instance_merge,rejected,"hai người đứng sát cạnh nhau bị che khuất một phần, phân vùng tự nhiên của COCO"
+000000006471,category_swap,confirmed,"mở ảnh: ghế băng dài ngoài trời, detection ghi bench đúng, panoptic ghi couch sai"
+000000006723,class_swap,rejected,"xe tải và xe buýt chạy liền nhau trên đường cao tốc, không có lỗi tráo lớp nhân tạo"
+000000006763,instance_merge,rejected,"người đứng trước bóng phản chiếu, phân vùng bao trùm tự nhiên của tập dữ liệu"
+000000006771,instance_merge,rejected,"đám đông người đi bộ trên đường phố chen chúc nhau, mask gộp do mật độ cao"
+000000018380,class_swap,rejected,"chén nhỏ và ly trên bàn tiệc đông người, sự bất đồng giữa cup và bowl là ranh giới phân loại tự nhiên của COCO"
+000000018491,instance_merge,rejected,"các cầu thủ bóng chày ngồi sát nhau trên băng ghế dự bị, hiện tượng mask panoptic tiếp xúc là gom cụm tự nhiên"
+000000020247,instance_merge,rejected,"hai chú gấu đứng gần nhau trên mỏm đá tự nhiên, sự tiếp xúc thân thể làm mask panoptic che khuất tự nhiên"
+000000020553,class_swap,rejected,"gấu bông nhỏ đặt cạnh chai nước và bình hoa, việc phân định ranh giới vật thể nhỏ là tranh chấp nhãn tự nhiên"
+000000023899,bbox_drift,rejected,"người ngồi trên ghế sofa cầm điều khiển từ xa, box YOLO ôm sát đúng người, việc lệch IoU là do panoptic gộp hai người"
+000000023899,instance_merge,confirmed,hai người ngồi cạnh nhau trên ghế sofa có hai box YOLO riêng biệt nhưng panoptic bị gộp chung thành một segment duy nhất
+000000023937,instance_merge,rejected,"đàn bò và cừu đứng sát nhau trên đồng cỏ gặm cỏ, các thân thể chạm nhau gây dính mask tự nhiên"
+000000024243,instance_merge,rejected,"nhiều người đứng cạnh tủ lạnh trong phòng đông đúc, mật độ cao làm phân vùng panoptic gom cụm tự nhiên"
+000000013177,class_swap,confirmed,chiếc xe đạp màu cam dựng phía sau người thợ sửa xe bị YOLO gán nhầm thành motorcycle trong khi panoptic ghi bicycle đúng
+000000013923,instance_merge,rejected,"hai chiếc ghế đỏ quanh bàn tròn trắng đặt chồng góc nhìn ở tiền cảnh, lệch tự nhiên giữa hai chuẩn nhãn"
+000000014038,instance_merge,rejected,"các chồng sách xếp sát thành từng cụm dày đặc trên kệ đứng bên phải phòng, gom vùng tự nhiên của COCO"
+000000015079,missing_box,rejected,YOLO đã gán đủ hai box cho hai chiếc bánh sandwich trên đĩa nên không phải lỗi thiếu box
+000000015079,instance_merge,confirmed,hai chiếc bánh sandwich tách biệt rõ ràng trên đĩa có hai box YOLO riêng nhưng panoptic gộp chung thành một segment
+000000016228,instance_merge,rejected,"người ngồi trên ghế bên phải bị đầu ngựa trắng che khuất một phần và đám đông đứng sát nhau bên trái, lệch tự nhiên"
+000000017182,instance_merge,rejected,"dãy sáu cuốn sách bìa xanh xếp khít thành hàng trên mặt bàn gỗ trước bảng đen, gom vùng tự nhiên của COCO"
+000000000776,instance_merge,rejected,"nhiều chú gấu bông đặt sát nhau trên giường, việc panoptic gom cụm là đặc thù phân vùng tự nhiên của COCO"
+000000000785,missing_box,confirmed,người trượt tuyết trên sườn núi có ván trượt skis rất rõ ràng nhưng nhãn detection YOLO bị bỏ sót box skis
+000000000872,missing_box,rejected,"người đứng ở phía xa hậu cảnh có kích thước quá nhỏ và bị che khuất, YOLO bỏ qua là độ lệch tự nhiên"
+000000001000,instance_merge,rejected,"hai người đứng cạnh nhau trên bãi cỏ, phân vùng panoptic mask gom cụm là hiện tượng che khuất tự nhiên"
+000000001818,missing_box,rejected,"chú ngựa vằn đứng ở góc xa lệch ngoài tầm nhìn, nhãn detection không gán khung là sự không đồng nhất tự nhiên"
+000000002153,instance_merge,rejected,"hai người đứng tựa vào nhau ở tiền cảnh bức ảnh, mask phân vùng bị gộp do tiếp xúc cơ thể tự nhiên"
+000000002157,instance_merge,rejected,"các ly rượu vang đặt san sát nhau trên bàn tiệc trong nhà hàng, panoptic phân đoạn gộp do mật độ dày"
+000000002685,bbox_drift,confirmed,khung viền bounding box của người person bị kéo lệch tâm đáng kể về phía dưới và sai tỷ lệ so với cơ thể
+000000008277,instance_merge,rejected,"ảnh có đĩa xốp trắng đựng gà xé và một hộp đen đựng súp, detection gán nhãn hai vật thể tách biệt là chuẩn xác"
+000000009400,instance_merge,rejected,"cốc nước đá để trên bàn trong quán cà phê, hai khung viền xếp chồng lên nhau là nhiễu tự nhiên của COCO"
+000000009590,class_swap,rejected,"chén uống trà kiểu Nhật không có quai cầm trên bàn ăn, việc gán nhãn cup hay bowl là bất đồng tự nhiên của bộ dữ liệu"
+000000009914,class_swap,rejected,"nửa chiếc bánh kẹp thịt kẹp vừng nằm bên phải đĩa khoai tây, gán nhãn sandwich hay hot dog là tranh chấp nhãn tự nhiên"
+000000011511,bbox_drift,rejected,"hai bức tượng bằng đồng ngồi trên ghế đá công viên, khung viền bounding box ôm vừa vặn vật thể không bị lệch"
+000000011511,missing_box,rejected,"ảnh hai pho tượng kim loại ngồi trên ghế băng, nhãn detection đã nhận diện đủ các đối tượng chính không bị thiếu box"
+000000012748,missing_box,rejected,"người đàn ông áo đỏ đang bế một em bé đứng cạnh đầu ngựa, detection khoanh chung một khung person hợp lý"

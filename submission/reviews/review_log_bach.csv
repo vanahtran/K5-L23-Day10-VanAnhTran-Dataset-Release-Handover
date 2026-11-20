@@ -1,0 +1,9 @@
+image,type,verdict,note
+000000018380,class_swap,rejected,"chén nhỏ và ly trên bàn tiệc đông người, sự bất đồng giữa cup và bowl là ranh giới phân loại tự nhiên của COCO"
+000000018491,instance_merge,rejected,"các cầu thủ bóng chày ngồi sát nhau trên băng ghế dự bị, hiện tượng mask panoptic tiếp xúc là gom cụm tự nhiên"
+000000020247,instance_merge,rejected,"hai chú gấu đứng gần nhau trên mỏm đá tự nhiên, sự tiếp xúc thân thể làm mask panoptic che khuất tự nhiên"
+000000020553,class_swap,rejected,"gấu bông nhỏ đặt cạnh chai nước và bình hoa, việc phân định ranh giới vật thể nhỏ là tranh chấp nhãn tự nhiên"
+000000023899,bbox_drift,rejected,"người ngồi trên ghế sofa cầm điều khiển từ xa, box YOLO ôm sát đúng người, việc lệch IoU là do panoptic gộp hai người"
+000000023899,instance_merge,confirmed,"hai người ngồi cạnh nhau trên ghế sofa có hai box YOLO riêng biệt nhưng panoptic bị gộp chung thành một segment duy nhất"
+000000023937,instance_merge,rejected,"đàn bò và cừu đứng sát nhau trên đồng cỏ gặm cỏ, các thân thể chạm nhau gây dính mask tự nhiên"
+000000024243,instance_merge,rejected,"nhiều người đứng cạnh tủ lạnh trong phòng đông đúc, mật độ cao làm phân vùng panoptic gom cụm tự nhiên"

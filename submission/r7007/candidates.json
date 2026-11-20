@@ -1,0 +1,187 @@
+[
+  {
+    "image": "000000000776",
+    "type": "instance_merge",
+    "hint": "1 mask teddy bear phủ 2 box YOLO"
+  },
+  {
+    "image": "000000000785",
+    "type": "missing_box",
+    "hint": "Panoptic có skis (area=3828) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000000872",
+    "type": "missing_box",
+    "hint": "Panoptic có person (area=47692) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000001000",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000001818",
+    "type": "missing_box",
+    "hint": "Panoptic có zebra (area=120106) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000002153",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000002157",
+    "type": "instance_merge",
+    "hint": "1 mask wine glass phủ 2 box YOLO"
+  },
+  {
+    "image": "000000002685",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000003845",
+    "type": "class_swap",
+    "hint": "YOLO=80 vs Panoptic=broccoli (IoU=0.99)"
+  },
+  {
+    "image": "000000004134",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000004765",
+    "type": "class_swap",
+    "hint": "YOLO=80 vs Panoptic=surfboard (IoU=0.99)"
+  },
+  {
+    "image": "000000005001",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000006471",
+    "type": "class_swap",
+    "hint": "YOLO=bench vs Panoptic=couch (IoU=0.98)"
+  },
+  {
+    "image": "000000006723",
+    "type": "class_swap",
+    "hint": "YOLO=truck vs Panoptic=bus (IoU=0.91)"
+  },
+  {
+    "image": "000000006763",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000006771",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000008277",
+    "type": "instance_merge",
+    "hint": "1 mask bowl phủ 2 box YOLO"
+  },
+  {
+    "image": "000000009400",
+    "type": "instance_merge",
+    "hint": "1 mask cup phủ 2 box YOLO"
+  },
+  {
+    "image": "000000009590",
+    "type": "class_swap",
+    "hint": "YOLO=cup vs Panoptic=bowl (IoU=0.92)"
+  },
+  {
+    "image": "000000009914",
+    "type": "class_swap",
+    "hint": "YOLO=hot dog vs Panoptic=sandwich (IoU=0.81)"
+  },
+  {
+    "image": "000000011511",
+    "type": "bbox_drift",
+    "hint": "Box lệch: person IoU=0.27"
+  },
+  {
+    "image": "000000011511",
+    "type": "missing_box",
+    "hint": "Panoptic có person (area=9003) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000012748",
+    "type": "missing_box",
+    "hint": "Panoptic có person (area=56935) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000013177",
+    "type": "class_swap",
+    "hint": "YOLO=motorcycle vs Panoptic=bicycle (IoU=1.00)"
+  },
+  {
+    "image": "000000013923",
+    "type": "instance_merge",
+    "hint": "1 mask chair phủ 2 box YOLO"
+  },
+  {
+    "image": "000000014038",
+    "type": "instance_merge",
+    "hint": "1 mask book phủ 2 box YOLO"
+  },
+  {
+    "image": "000000015079",
+    "type": "missing_box",
+    "hint": "Panoptic có sandwich (area=94673) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "000000015079",
+    "type": "instance_merge",
+    "hint": "1 mask sandwich phủ 2 box YOLO"
+  },
+  {
+    "image": "000000016228",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000017182",
+    "type": "instance_merge",
+    "hint": "1 mask book phủ 2 box YOLO"
+  },
+  {
+    "image": "000000018380",
+    "type": "class_swap",
+    "hint": "YOLO=cup vs Panoptic=wine glass (IoU=0.87)"
+  },
+  {
+    "image": "000000018491",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "000000020247",
+    "type": "instance_merge",
+    "hint": "1 mask bear phủ 2 box YOLO"
+  },
+  {
+    "image": "000000020553",
+    "type": "class_swap",
+    "hint": "YOLO=bottle vs Panoptic=vase (IoU=0.77)"
+  },
+  {
+    "image": "000000023899",
+    "type": "bbox_drift",
+    "hint": "Box lệch: person IoU=0.15"
+  },
+  {
+    "image": "000000023937",
+    "type": "instance_merge",
+    "hint": "1 mask cow phủ 2 box YOLO"
+  },
+  {
+    "image": "000000024243",
+    "type": "instance_merge",
+    "hint": "1 mask cup phủ 2 box YOLO"
+  }
+]
