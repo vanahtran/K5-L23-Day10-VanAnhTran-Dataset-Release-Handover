@@ -1,0 +1,10 @@
+image,type,verdict,note
+img_0222,missing_box,rejected,"nhiều gậy bóng chày xếp trong thùng chứa, detection đã gán đủ 5 box cho các gậy chính nên không thiếu box"
+img_0222,instance_merge,rejected,"các gậy bóng chày cắm chen chúc trong giá đỡ, mask panoptic diện tích lớn bao trùm cụm gậy là đặc thù tự nhiên"
+img_0227,class_swap,rejected,"sách trên kệ gỗ đối chiếu với ghế, nhãn detection YOLO ghi book đúng thực tế vật thể, lỗi nằm ở panoptic"
+img_0227,category_swap,confirmed,"kệ gỗ chứa nhiều sách, detection YOLO ghi nhãn book chính xác nhưng panoptic bị gán sai danh mục thành chair"
+img_0235,instance_merge,rejected,"người mẹ đang bế con nhỏ trên tay ngoài công viên, cơ thể hai mẹ con tiếp xúc hoàn toàn gây dính mask tự nhiên"
+img_0240,category_swap,confirmed,"chiếc ghế tựa đơn trong phòng ăn, nhãn detection YOLO ghi chair đúng nhưng panoptic bị gán nhầm thành couch"
+img_0245,bbox_drift,rejected,"chú bò gặm cỏ trên đồng cỏ rộng, khung box detection YOLO vẽ ôm sát đúng vị trí thân bò, không bị lệch tâm"
+img_0245,instance_merge,confirmed,"hai chú bò đứng sát nhau trên bãi cỏ, YOLO phân tách chuẩn hai box riêng nhưng panoptic bị gộp chung thành một mask duy nhất"
+img_0248,bbox_drift,confirmed,"chiếc ghế băng dài bằng gỗ ngoài trời, khung bounding box detection YOLO bị kéo lệch tâm đáng kể ra khỏi vị trí ghế"
