@@ -1,0 +1,10 @@
+image,type,verdict,note
+img_0134,bbox_drift,rejected,"đàn bò đứng sau hàng rào trên đồng cỏ, nhãn detection định vị các con bò chuẩn xác, độ lệch do lỗi mask thing_overlap từ panoptic"
+img_0137,instance_merge,rejected,"bàn ăn dài trong nhà hàng đông người ngồi sát nhau, detection đã tách biệt từng người thành các box riêng hợp lý"
+img_0140,missing_box,rejected,"ảnh có hai người gồm một người trượt ván và một người ngồi trên ghế đá, cả hai đã được detection gán nhãn đầy đủ không bị thiếu"
+img_0143,instance_merge,rejected,"nhóm bạn đứng trò chuyện quanh quầy bếp trong nhà, detection đã tách khung bao quanh từng người riêng biệt chính xác"
+img_0145,instance_merge,rejected,"trận đấu bóng chày với khán giả ngồi san sát trên khán đài, detection đã phân tách từng khán giả thành từng box hợp lý"
+img_0147,class_swap,confirmed,"chiếc xe đạp màu trắng dựa vào tường bên trái có bàn đạp không động cơ nhưng detection ghi nhầm thành motorcycle"
+img_0152,instance_merge,rejected,"các con dao cắm trong ống cắm dao gỗ cạnh nồi cơm điện, detection gán từng cán dao riêng biệt hợp lý"
+img_0155,instance_merge,rejected,"chùm kéo nhựa màu hồng treo sát cạnh nhau, detection đã phát hiện và khoanh vùng từng cây kéo riêng biệt"
+img_0168,instance_merge,rejected,"các toa tàu hỏa chạy song song trên các đường ray ở ga tàu, detection đã khoanh riêng từng đoàn tàu hợp lý"
