@@ -1,40 +1,72 @@
 {
-  "errors": [
-    {
-      "type": "wrong_hash",
-      "target": "img_0117"
-    },
-    {
-      "type": "guideline_mismatch",
-      "target": "img_0168"
-    },
-    {
-      "type": "missing_image",
-      "target": "img_0171"
-    },
-    {
-      "type": "scene_leak",
-      "target": "scene_635"
-    },
-    {
-      "type": "invalid_category_id",
-      "target": "img_0100"
-    },
-    {
-      "type": "thing_overlap",
-      "target": "img_0134"
-    },
-    {
-      "type": "duplicate_box",
-      "target": "img_0179"
-    },
-    {
-      "type": "bbox_out_of_bounds",
-      "target": "img_0188"
-    },
-    {
-      "type": "bbox_out_of_bounds",
-      "target": "img_0247"
-    }
-  ]
+ "errors": [
+  {
+   "type": "bbox_drift",
+   "target": "img_0248"
+  },
+  {
+   "type": "bbox_out_of_bounds",
+   "target": "img_0188"
+  },
+  {
+   "type": "bbox_out_of_bounds",
+   "target": "img_0247"
+  },
+  {
+   "type": "category_swap",
+   "target": "img_0227"
+  },
+  {
+   "type": "category_swap",
+   "target": "img_0240"
+  },
+  {
+   "type": "class_swap",
+   "target": "img_0010"
+  },
+  {
+   "type": "class_swap",
+   "target": "img_0121"
+  },
+  {
+   "type": "class_swap",
+   "target": "img_0147"
+  },
+  {
+   "type": "duplicate_box",
+   "target": "img_0179"
+  },
+  {
+   "type": "guideline_mismatch",
+   "target": "img_0168"
+  },
+  {
+   "type": "instance_merge",
+   "target": "img_0245"
+  },
+  {
+   "type": "invalid_category_id",
+   "target": "img_0100"
+  },
+  {
+   "type": "missing_box",
+   "target": "img_0060"
+  },
+  {
+   "type": "missing_image",
+   "target": "img_0171"
+  },
+  {
+   "type": "scene_leak",
+   "target": "scene_635"
+  },
+  {
+   "type": "thing_overlap",
+   "target": "img_0134"
+  },
+  {
+   "type": "wrong_hash",
+   "target": "img_0117"
+  }
+ ]
 }
