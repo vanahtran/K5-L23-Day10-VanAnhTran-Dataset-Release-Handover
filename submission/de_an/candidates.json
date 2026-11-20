@@ -1,0 +1,217 @@
+[
+  {
+    "image": "img_0002",
+    "type": "class_swap",
+    "hint": "YOLO=truck vs Panoptic=car (IoU=0.90)"
+  },
+  {
+    "image": "img_0005",
+    "type": "instance_merge",
+    "hint": "1 mask chair phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0008",
+    "type": "class_swap",
+    "hint": "YOLO=microwave vs Panoptic=oven (IoU=0.79)"
+  },
+  {
+    "image": "img_0010",
+    "type": "class_swap",
+    "hint": "YOLO=bird vs Panoptic=kite (IoU=0.97)"
+  },
+  {
+    "image": "img_0012",
+    "type": "instance_merge",
+    "hint": "1 mask chair phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0024",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0027",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0039",
+    "type": "class_swap",
+    "hint": "YOLO=orange vs Panoptic=apple (IoU=0.89)"
+  },
+  {
+    "image": "img_0045",
+    "type": "instance_merge",
+    "hint": "1 mask book phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0048",
+    "type": "instance_merge",
+    "hint": "1 mask dog phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0060",
+    "type": "missing_box",
+    "hint": "Panoptic có hot dog (area=19913) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "img_0065",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0076",
+    "type": "instance_merge",
+    "hint": "1 mask carrot phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0078",
+    "type": "class_swap",
+    "hint": "YOLO=bed vs Panoptic=couch (IoU=0.85)"
+  },
+  {
+    "image": "img_0090",
+    "type": "class_swap",
+    "hint": "YOLO=cow vs Panoptic=elephant (IoU=0.89)"
+  },
+  {
+    "image": "img_0100",
+    "type": "class_swap",
+    "hint": "YOLO=cat vs Panoptic=suitcase (IoU=0.44)"
+  },
+  {
+    "image": "img_0110",
+    "type": "instance_merge",
+    "hint": "1 mask boat phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0121",
+    "type": "class_swap",
+    "hint": "YOLO=dog vs Panoptic=cat (IoU=1.00)"
+  },
+  {
+    "image": "img_0134",
+    "type": "bbox_drift",
+    "hint": "Box lệch: cow IoU=0.24"
+  },
+  {
+    "image": "img_0137",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0140",
+    "type": "missing_box",
+    "hint": "Panoptic có person (area=6836) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "img_0143",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0145",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0147",
+    "type": "class_swap",
+    "hint": "YOLO=motorcycle vs Panoptic=bicycle (IoU=0.97)"
+  },
+  {
+    "image": "img_0152",
+    "type": "instance_merge",
+    "hint": "1 mask knife phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0155",
+    "type": "instance_merge",
+    "hint": "1 mask scissors phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0168",
+    "type": "instance_merge",
+    "hint": "1 mask train phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0172",
+    "type": "class_swap",
+    "hint": "YOLO=hot dog vs Panoptic=sandwich (IoU=0.43)"
+  },
+  {
+    "image": "img_0175",
+    "type": "class_swap",
+    "hint": "YOLO=spoon vs Panoptic=fork (IoU=0.89)"
+  },
+  {
+    "image": "img_0179",
+    "type": "instance_merge",
+    "hint": "1 mask cow phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0180",
+    "type": "class_swap",
+    "hint": "YOLO=truck vs Panoptic=car (IoU=0.95)"
+  },
+  {
+    "image": "img_0195",
+    "type": "instance_merge",
+    "hint": "1 mask car phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0197",
+    "type": "instance_merge",
+    "hint": "1 mask umbrella phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0203",
+    "type": "instance_merge",
+    "hint": "1 mask teddy bear phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0222",
+    "type": "missing_box",
+    "hint": "Panoptic có baseball bat (area=5279) nhưng YOLO thiếu box"
+  },
+  {
+    "image": "img_0222",
+    "type": "instance_merge",
+    "hint": "1 mask baseball bat phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0227",
+    "type": "class_swap",
+    "hint": "YOLO=book vs Panoptic=chair (IoU=0.98)"
+  },
+  {
+    "image": "img_0227",
+    "type": "instance_merge",
+    "hint": "1 mask book phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0235",
+    "type": "instance_merge",
+    "hint": "1 mask person phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0240",
+    "type": "class_swap",
+    "hint": "YOLO=chair vs Panoptic=couch (IoU=0.98)"
+  },
+  {
+    "image": "img_0245",
+    "type": "bbox_drift",
+    "hint": "Box lệch: cow IoU=0.23"
+  },
+  {
+    "image": "img_0245",
+    "type": "instance_merge",
+    "hint": "1 mask cow phủ 2 box YOLO"
+  },
+  {
+    "image": "img_0248",
+    "type": "bbox_drift",
+    "hint": "Box lệch: bench IoU=0.39"
+  }
+]
