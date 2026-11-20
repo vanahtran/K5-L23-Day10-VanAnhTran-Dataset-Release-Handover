@@ -1,8 +1,0 @@
-img_0172,class_swap,rejected,"Hai nua banh mi kep dai nhan sot do dat sat nhau tren dia, nhieu tu nhien giua sandwich va hot dog kem IoU thap (0.43).",Trinh
-img_0175,class_swap,rejected,"Anh ghep 16 o do an mo hinh thu nho, thia va nia kich thuoc qua be va mo nen nhieu tu nhien giua spoon va fork.",Trinh
-img_0179,instance_merge,confirmed,"Tren suon nui chi co duy nhat 1 con bo mau nau trang nhung co 2 box YOLO chong len nhau (loi duplicate_box).",Trinh
-img_0180,class_swap,rejected,"Xe ban tai do ha gam thao thung co banh doi phia sau, nam giua ranh gioi car va truck trong COCO (nhieu tu nhien).",Trinh
-img_0195,instance_merge,rejected,"Nhieu o to do noi tiep va bi tru cuu hoa che chan giua khung hinh, 1 mask phu 2 box do chong lan tu nhien.",Trinh
-img_0197,instance_merge,rejected,"Co 2 chiec o gap xep chong sat nhau o goc tren ben phai ke go (thay ro 2 tay cam), nhieu chong lan tu nhien.",Trinh
-img_0203,instance_merge,rejected,"Cac con gau bong (hong, vang, do) ngoi sat dinh vao nhau tren ban nen 1 mask giao phu qua 2 box rieng biet.",Trinh
-img_0222,missing_box,rejected,"Sau gay bong chay xep chong khit tren gia treo ben trai, gay area=5279 chong lan manh voi gay ben canh (IoU=0.72) do che khuat tu nhien.",Trinh
