@@ -1,0 +1,10 @@
+image,type,verdict,note
+img_0048,instance_merge,rejected,"ảnh có 2 chú chó riêng biệt, cả YOLO và Panoptic đều có đủ 2 đối tượng tương ứng, không bị gộp instance"
+img_0060,missing_box,confirmed,"người đàn ông đang cầm ăn một chiếc hot dog rất rõ ở giữa ảnh, Panoptic có segment nhưng nhãn YOLO bị thiếu box hot dog"
+img_0065,instance_merge,rejected,"cảnh quán ăn ngoài trời đông người, cả YOLO và Panoptic đều gán đủ 11 người, các box chỉ che khuất tự nhiên trong đám đông"
+img_0076,instance_merge,rejected,"bàn cắt có 4 củ cà rốt xếp chồng lên nhau, cả YOLO và Panoptic đều gán độc lập đủ 4 đối tượng, không có lỗi gộp mặt nạ"
+img_0078,class_swap,rejected,"ghế băng dài chaise lounge trong phòng chờ được gán nhãn đa phân loại trong COCO gốc cả couch và bed, không phải lỗi hoán đổi lớp"
+img_0090,class_swap,rejected,"đàn gia súc ven sông ở rất xa, đối tượng kích thước siêu nhỏ dưới 0.1% ảnh do nhiễu tự nhiên COCO, không phải lỗi gài"
+img_0100,class_swap,rejected,"con mèo nằm trong vali mang nhãn segment 105 là lỗi sai ID danh mục invalid_category_id theo luật, không phải lỗi ngữ nghĩa class_swap"
+img_0110,instance_merge,rejected,"bến thuyền có 14 thuyền non-crowd đều có box và mask tương ứng 1-1, mask lớn phía sau là crowd tự nhiên của COCO"
+img_0121,class_swap,confirmed,"ảnh chụp cận cảnh một chú mèo đen trắng nằm trên giường, Panoptic gán cat chính xác nhưng YOLO bị gán nhầm thành dog"
